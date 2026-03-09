@@ -28,6 +28,7 @@ body {
 }
 
 #game-area {
+  position: relative;
   width: 800px;
   height: 400px;
   background: linear-gradient(
@@ -66,18 +67,21 @@ body {
 }
 
 .platform.ground {
+  position: absolute;
   width: 20px;
   height: 20px;
   background-image: url("./images/brick.png");
 }
 
 .platform.floating {
+  position: absolute;
   width: 20px;
   height: 20px;
   background-image: url("./images/brick.png");
 }
 
 .platform.blue {
+  position: absolute;
   width: 20px;
   height: 20px;
   background-image: src("./images/platform-blue.png ");
