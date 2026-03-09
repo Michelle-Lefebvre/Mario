@@ -71,13 +71,19 @@ body {
   background-image: url("./images/brick.png");
 }
 
+.platform.floating {
+  width: 20px;
+  height: 20px;
+  background-image: url("./images/brick.png");
+}
+
 .platform.blue {
   width: 20px;
   height: 20px;
   background-image: src("./images/platform-blue.png ");
 }
 
-.enemy {
+.enemy.brown {
   width: 20px;
   height: 20px;
   background-image: url("./images/enemy");
