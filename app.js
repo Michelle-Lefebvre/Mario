@@ -33,7 +33,7 @@ let player = {
 let gameObjects = {
     enemies: [],
     platforms: [],
-    coins: []
+    coins: [],
     surpriseBlocks: [],
     pipes: []
 }
@@ -57,7 +57,7 @@ const levels = [
             { x: 220, y: 260 },
             { x: 320, y: 220 },
             { x: 620, y: 260 }
-        ]
+        ],
         surpriseBlocks: [
             { x: 350, y: 220, type: 'mushroom' }
         ],
@@ -90,7 +90,7 @@ const levels = [
             { x: 570, y: 260 },
         ],
         surpriseBlocks: [
-            { x: 200, y: 260, type: 'coin' }
+            { x: 200, y: 260, type: 'coin' },
             { x: 400, y: 220, type: 'mushroom' }
         ],
         pipes: [
